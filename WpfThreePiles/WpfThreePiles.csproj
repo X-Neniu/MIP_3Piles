@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pile.png" />
+    <None Remove="Stone.png" />
+    <None Remove="StoneSelected.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pile.png" />
+    <Resource Include="Stone.png" />
+    <Resource Include="StoneSelected.png" />
+  </ItemGroup>
+
+</Project>
